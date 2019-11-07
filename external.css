@@ -1,0 +1,125 @@
+
+
+		
+		.top, .footer {
+			background-color: blue;
+			border-bottom: 1px solid black;
+			color: white;
+			text-align: center;
+			padding: 15px;
+		}
+		body{border: 1px solid black
+		}
+		
+		.nav{
+			box-sizing: border-box;
+			width: 20%;
+			height: 500px;
+			background-color: lightsteelblue;
+			color: black;
+			border: 1px solid black;
+			border-bottom: none;
+			border-top:none;
+			text-decoration: none;
+			text-align: left;
+			padding-right: 3%;
+			float: left;
+		}
+		.content{
+			box-sizing: border-box;
+			width: 80%;
+			height: 500px;
+			background-color: lightsteelblue;
+			color: black;
+			padding-left: 5%;
+			float: left;
+			overflow: auto;
+		}
+		.nav2{
+			box-sizing: border-box;
+			width: 50%;
+			height: 500px;
+			background-color: lightsteelblue;
+			color: black;
+			border: 1px solid black;
+			border-bottom: none;
+			border-top:none;
+			text-decoration: none;
+			text-align: left;
+			padding-right: 3%;
+			float: left;
+		}
+		
+		.content2{
+			box-sizing: border-box;
+			width: 80%;
+			height: 500px;
+			background-color: lightsteelblue;
+			color: black;
+			padding-left: 5%;
+			float: left;
+			overflow: auto;
+		}
+		.images{
+			box-sizing: border-box;
+			float: left;
+			width: 33.33%;
+			//height: 100px;
+			padding: 2px;
+	
+			//padding-right: 10px;
+			//left: 20px;
+			//display: inline;
+		}
+		.row::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+		.nav ul {
+			list-style-type: none;
+			color:black;
+			font-size: 1.5em;
+			border: black;	
+			
+		}
+		
+		.nav li {
+			padding: 15px;
+			//outline-style: bottom;
+			outline-color: black;
+			color: black;
+			border-bottom: 1px solid black;
+			//border
+			//border-bottom-width: medium;
+			
+		}
+		.nav2 ul {
+			list-style-type: none;
+			font-size: 1.5em;
+			border: black;	
+			
+		}
+		
+		.nav2 li {
+			padding: 15px;
+			//outline-style: bottom;
+			outline-color: black;
+			border-bottom: 1px solid black;
+			//border
+			//border-bottom-width: medium;
+			
+		}
+		
+		a {
+			color: red;
+			text-decoration: none;
+		}
+		
+		.clearfix::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+		
+		
